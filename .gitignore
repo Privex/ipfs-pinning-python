@@ -1,0 +1,34 @@
+# PyCharm / Visual Studio Code IDE metadata
+.idea/
+.vscode/
+
+data/
+# various collected static files that don't need to be stored
+static/admin
+static/debug_toolbar
+static/rest_framework
+# Virtualenv
+venv/
+# Environment file (may contain passwords)
+.env
+
+# ignore all log files
+*.log
+
+# pyenv version info
+.python-version
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# editor swap files
+*.swo
+*.swp
+*~
+
+# nodejs stuff
+package-lock.json
+node_modules

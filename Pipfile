@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.1.*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-guardian = "*"
+privex-helpers = {version = ">=3.2", extras = ["cache"]}
+privex-loghelper = "*"
+ipfshttpclient = "*"
+psycopg2 = "*"
+mysqlclient = "*"
+python-dotenv = "*"
+rich = "*"
+
+[dev-packages]
+jupyter = "*"
+jupyter-console = "*"
+nest-asyncio = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-asyncio = "*"
+codecov = "*"
+coverage = "*"
+wheel = "*"
+setuptools = "*"
+twine = "*"
+
+[requires]
+python_version = "3.8"
